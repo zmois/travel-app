@@ -1,0 +1,150 @@
+ .App {
+  text-align: center;
+}
+/* ================================= 
+  Element Styles
+==================================== */
+
+body {
+  font: 1em 'Roboto', sans-serif;
+  color: #414141;
+  background: #efefef;
+  padding-bottom: 3em;
+  margin: 3rem;
+}
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem; 
+  color:#056571; 
+}
+h2 {
+  font-size: 1.25rem; 
+  color:#f7f5e6;
+}
+p {
+  font-size: 1.25rem; 
+  color:#414141;
+}
+a {
+  text-decoration: none;
+  color: #056571;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+a:hover,
+a:active {
+  background-color: #056571;
+  border-radius: 10px;
+  color: #e8e8e8;
+  padding: 10px;
+}
+hr {
+  border: 0;
+  height: 0;
+  margin: 1em 0;
+  border-top: 3px solid #ff6a5c;
+}
+ul,
+li {
+  margin: 10px;
+  padding: 15px;
+  list-style: none;
+}
+input {
+  font-size: 1em;
+  color:#414141;
+  height: 36px;
+  padding: 0.8em;
+  background: none;
+  border: none;
+  outline: 0;
+  border-bottom: 3px solid #056571;
+  transition: border-color .4s;
+}
+input:focus {
+  border-color: #ff6a5c;
+}
+form {
+  margin: 10px;
+  padding: 10px;;
+  font-size: 1rem; 
+}
+/* ================================= 
+  Page Components
+==================================== */
+.nav-item{
+  border-radius: 10px;
+  color: #1c1d1d;
+  padding: 10px;
+}
+.card {
+  padding: 10px 15px;
+  color: #e8e8e8;
+  background-color: #ff6a5c;
+  box-shadow: 5px 5px #056571;
+  font-size: 15px;
+  border-radius: 20px;
+  border-color: #414141;
+  border-style: solid;
+  width: auto;
+  margin: 15px auto;
+}
+.main-navbar {
+  width: 90%;
+  display: block;
+  margin:auto
+} 
+.main-footer {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* ================================= 
+  Layout Styles
+==================================== */
+.main-content {
+  width: 90%;
+  max-width: 1025px;
+  margin: auto;
+}
+.main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  min-height: 80px;
+  z-index: 1000;
+}
+.card-logo {
+  display: block;
+  margin: auto;
+  width: 20%; 
+}
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (max-width: 768px) {
+    .main-navbar li {
+    width: 90%;
+    display: block;
+    margin: 0;
+    padding: 5px;
+  }
+  .card {
+    width: auto;
+    margin: 5px auto;
+  } 
+}
+@media (min-width: 769px) {
+   .card {
+    width: 50%;
+  } 
+    .main-navbar { 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+

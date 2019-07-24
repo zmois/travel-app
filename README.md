@@ -1,7 +1,7 @@
-#Travel App#
+#Travel App
 This  is my Code Louisville JS/React project. This App helps to search the location, weather, and nearby airports by search City name.
 
-#Prerequisites#
+#Prerequisites
 
 1. Install NodeJS https://nodejs.org/en/download/
 
@@ -13,7 +13,7 @@ This  is my Code Louisville JS/React project. This App helps to search the locat
 
 Open the browser and navigate to http://localhost:3000.
 
-#Used APIs#
+#Used APIs
 API Keys are stored in the begining of the code and needed to place in the appropriate place. 
 
 Search is called by city name. API responds with a list of results that match a searching word.

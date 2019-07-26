@@ -1,8 +1,8 @@
-#Travel App
+#Travel App#
 
-This  is my Code Louisville JS/React project. This App helps to search the location, weather, and nearby airports by search City name.
+This is my Code Louisville JS/React project. This App helps to search the location, weather, and nearby airports by search City name.
 
-#Prerequisites
+Prerequisites
 
 1. Install NodeJS https://nodejs.org/en/download/
 
@@ -12,17 +12,10 @@ This  is my Code Louisville JS/React project. This App helps to search the locat
 3. To start the App 
  `npm start`
 
-Open the browser and navigate to http://localhost:3000.
+4. Open the browser and navigate to http://localhost:3000.
 
-#Used APIs
-API Keys are stored in the begining of the code and needed to place in the appropriate place. 
-
+Used APIs
 Search is called by city name. API responds with a list of results that match a searching word.
 
-Open Weather API is used to for Weather search.  Units: metric
-
-Airport Search API
-cometari-airportsfinder-v1.p.rapidapi.com
-
-Geolocation API
-devru-latitude-longitude-find-v1.p.rapidapi.com
+Open Weather API is used to for Weather search. Units: metric. You can sign for API Key and find the API documentation at https://openweathermap.org/api.
+You can sign up for a API Key at https://rapidapi.com/ for Airport Search API (cometari-airportsfinder-v1.p.rapidapi.com) and Geolocation API (devru-latitude-longitude-find-v1.p.rapidapi.com)
